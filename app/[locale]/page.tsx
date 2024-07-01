@@ -10,7 +10,9 @@ function Home() {
   return (
     <section className="flex flex-col md:items-center gap-12 md:flex-row">
       <div>
-        <p className="text-[24px] md:text-[28px] font-bold pb-10">{t("home-sec1-title")}</p>
+        <p className="text-[24px] md:text-[28px] font-bold pb-10">
+          {t("home-sec1-title")}
+        </p>
         <p className="pb-6">
           {t("home-sec1-desc1")}{" "}
           <span className="font-bold">{t("home-sec1-span1")} </span>
@@ -21,7 +23,7 @@ function Home() {
           <Space />
           {t("home-sec1-desc4")}
         </p>
-        <a href="MyResume.pdf">
+        <a href="MyResume.pdf" target="blank">
           <Button type="button">
             {t("home-sec1-btn")}
             <BsFillCheckCircleFill />
