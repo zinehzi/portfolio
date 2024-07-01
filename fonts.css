@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "MyFont";
+  font-weight: 500;
+  src: local("Proxima Nova Alt Light"),
+    url("/public/assets/fonts/en/Proxima-Nova-Alt/ProximaNovaAlt-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MyFont";
+  font-weight: 700;
+  src: local("Proxima Nova Alt Bold"),
+    url("./public/assets/fonts/en/Proxima-Nova-Alt/ProximaNovaAlt-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MyFont";
+  font-weight: 300;
+  src: local("Proxima Nova Alt Thin"),
+    url("/public/assets/fonts/en/Proxima-Nova-Alt/ProximaNovaAlt-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MyFont2";
+  font-weight: 400;
+  src: local("Proxima Nova Regular"),
+    url("/public/assets/fonts/en/Proxima-Nova/ProximaNova-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MyFont2";
+  font-weight: 700;
+  src: local("Proxima Nova Bold"),
+    url("/public/assets/fonts/en/Proxima-Nova/ProximaNova-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MyFont2";
+  font-weight: 300;
+  src: local("Proxima Nova Thin"),
+    url("/public/assets/fonts/en/Proxima-Nova/ProximaNova-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: local("Shabnam-Thin.ttf"),
+    url("/public/assets/fonts/fa/Shabnam/Shabnam-Thin.ttf") format("truetype");
+}
