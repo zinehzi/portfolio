@@ -6,6 +6,7 @@ function DarkBtt() {
       viewBox="0 0 100 54"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="Btt"
     >
       <g id="Back-To-Top">
         <path

@@ -1,5 +1,6 @@
 "use client";
-import Icons from "./Icons/Icons";
+import DarkBtt from "./Icons/IconSVGs/Dark-Btt";
+import LightBtt from "./Icons/IconSVGs/Light-Btt";
 import { useTheme } from "next-themes";
 
 function Btt() {
@@ -7,11 +8,7 @@ function Btt() {
 
   return (
     <a href="#" className="flex self-center h-[50px] relative z-10">
-      {theme === "dark" ? (
-        <Icons name="DarkBtt" className="Btt" />
-      ) : (
-        <Icons name="LightBtt" className="Btt" />
-      )}
+      {theme === "dark" ? <DarkBtt /> : <LightBtt />}
     </a>
   );
 }

@@ -1,4 +1,6 @@
-import Icons from "./Icons/Icons";
+import GitHub from "./Icons/IconSVGs/GitHub";
+import Instagram from "./Icons/IconSVGs/Instagram";
+import LinkedIn from "./Icons/IconSVGs/LinkedIn";
 
 const SocialMedia = () => {
   return (
@@ -6,17 +8,17 @@ const SocialMedia = () => {
       <ul className="flex flex-col gap-4">
         <li>
           <a target="blank" href="https://github.com/zinehzi">
-            <Icons name="GitHub" />
+            <GitHub />
           </a>
         </li>
         <li>
           <a target="blank" href="https://www.linkedin.com/in/zineh-ziaraty/">
-            <Icons name="LinkedIn" />
+            <LinkedIn />
           </a>
         </li>
         <li>
           <a target="blank" href="https://www.instagram.com/ziaraty.zi/">
-            <Icons name="Instagram" />
+            <Instagram />
           </a>
         </li>
       </ul>

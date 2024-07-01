@@ -6,6 +6,7 @@ function LightBtt() {
       viewBox="0 0 101 52"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="Btt"
     >
       <g id="Back-To-Top">
         <path
