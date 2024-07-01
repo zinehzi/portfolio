@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import getRepos from "../actions/get-repos";
-import { repoType } from "../actions/get-repos";
+import { repoType } from "../types/repos";
 
 function PortfolioRepo() {
   const [repos, setRepos] = useState<repoType[]>([]);

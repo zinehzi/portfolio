@@ -25,7 +25,7 @@ function BurgerNavbar() {
       <NavbarItem
         className={`${
           isActive ? "flex" : "hidden"
-        } flex-col items-end gap-4 absolute top-16 left-0 right-0 w-full px-8 py-4 bg-white shadow-md`}
+        } flex-col items-end gap-4 absolute top-16 left-0 right-0 w-full px-8 py-4 bg-white shadow-md burger-menu`}
       >
         <LocaleSwitcher className="text-3xl"/>
       </NavbarItem>

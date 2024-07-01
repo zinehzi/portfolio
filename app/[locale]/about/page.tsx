@@ -14,7 +14,7 @@ function About() {
     <>
       <section className="flex flex-col items-center gap-12 md:flex-row">
         <div className="md:w-2/4">
-          <p className="md:text-[26px] pb-10">{t("about-sec1-title")}</p>
+          <p className="text-[22px] md:text-[26px] pb-10">{t("about-sec1-title")}</p>
           <p className="pb-6">
             {t("about-sec1-desc1")}
             <Space />

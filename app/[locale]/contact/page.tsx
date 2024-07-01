@@ -57,7 +57,7 @@ function Contact() {
   return (
     <form onSubmit={handleOnSubmit}>
       <div className="flex flex-col gap-4 flex-grow">
-        <p className="md:text-[28px] font-bold self-center pb-5">
+        <p className="text-[24px] md:text-[28px] font-bold self-center pb-5">
           {t("contact-sec1-title")}
         </p>
         <Input

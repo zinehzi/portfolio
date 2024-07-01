@@ -6,7 +6,7 @@ function Portfolio() {
   const t = useTranslations("Portfolio")
   return (
     <section className="flex flex-col">
-      <p className="md:text-[26px] pb-10">
+      <p className="text-[22px] md:text-[26px] pb-10">
         {t("port-sec1-title1")}
         <Space />
        {t("port-sec1-title2")}
