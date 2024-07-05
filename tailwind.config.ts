@@ -23,7 +23,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        lightBg: "url('/assets/images/Light-BG.svg')",
+        lightBg: "url('/assets/images/light-bg.svg')",
       },
       colors: {
         primary: "#8D00EB",
