@@ -16,7 +16,7 @@
 [data-theme="dark"] body {
   background-color: #333;
   color: #fff;
-  background-image: url("../public/assets/images/dark-bg.svg");
+  background-image: url("./public/assets/images/dark-bg.svg");
 }
 
 [data-theme="dark"] .text-textNav {
