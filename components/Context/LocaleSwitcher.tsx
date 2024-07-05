@@ -1,6 +1,6 @@
 "use client";
 import { BsTranslate } from "react-icons/bs";
-import { type Locale } from "../i18n.config";
+import { type Locale } from "../../i18n.config";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 

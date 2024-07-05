@@ -35,6 +35,7 @@ function Home() {
           src={HomeImg}
           alt="Home Photo"
           className="border p-1 rounded-md"
+          priority
         />
       </div>
     </section>

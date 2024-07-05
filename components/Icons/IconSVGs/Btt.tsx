@@ -1,4 +1,4 @@
-function LightBtt() {
+function Btt() {
   return (
     <svg
       width="100"
@@ -46,4 +46,4 @@ function LightBtt() {
   );
 }
 
-export default LightBtt;
+export default Btt;

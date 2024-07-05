@@ -3,8 +3,7 @@
 // import Instagram from "./IconSVGs/Instagram";
 // import Twitter from "./IconSVGs/Twitter";
 // import FaceBook from "./IconSVGs/FaceBook";
-// import LightBtt from "./IconSVGs/Light-Btt";
-// import DarkBtt from "./IconSVGs/Dark-Btt";
+// import Btt from "./IconSVGs/Btt";
 
 // const list = {
 //   GitHub: GitHub,
@@ -12,8 +11,7 @@
 //   Instagram: Instagram,
 //   Twitter: Twitter,
 //   FaceBook: FaceBook,
-//   LightBtt: LightBtt,
-//   DarkBtt: DarkBtt,
+//   Btt: Btt,
 // };
 
 // function Icons({ name, className }: { name: any; className?: string }) {

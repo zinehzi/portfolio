@@ -1,8 +1,8 @@
 import { Link } from "@/i18n.config";
-import Navbar from "./Navbar";
-import ThemeSwitcher from "./ThemeSwitcher";
-import LocaleSwitcher from "./LocaleSwitcher";
-import BurgerNavbar from "./BurgerNavbar";
+import Navbar from "./NavBar/Navbar";
+import ThemeSwitcher from "./Context/ThemeSwitcher";
+import LocaleSwitcher from "./Context/LocaleSwitcher";
+import BurgerNavbar from "./NavBar/BurgerNavbar";
 
 function Header() {
   return (

@@ -2,7 +2,7 @@
 import { MdMenu } from "react-icons/md";
 import { MdOutlineClose } from "react-icons/md";
 import NavbarItem from "./NavbarItem";
-import LocaleSwitcher from "./LocaleSwitcher";
+import LocaleSwitcher from "../Context/LocaleSwitcher";
 import { useState } from "react";
 
 function BurgerNavbar() {
@@ -25,7 +25,7 @@ function BurgerNavbar() {
       <NavbarItem
         className={`${
           isActive ? "flex" : "hidden"
-        } flex-col items-end gap-4 absolute top-16 left-0 right-0 w-full px-8 py-4 bg-white shadow-md burger-menu`}
+        } flex-col items-end gap-4 absolute top-16 left-0 right-0 w-full px-8 pt-4 pb-6 bg-white shadow-md burger-menu`}
       >
         <LocaleSwitcher className="text-3xl"/>
       </NavbarItem>

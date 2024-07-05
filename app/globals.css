@@ -16,11 +16,7 @@
 [data-theme="dark"] body {
   background-color: #333;
   color: #fff;
-  background-image: url("/public/assets/images/Dark-Bg.svg");
-}
-
-[data-theme="dark"] .text-textNav {
-  color: #fff;
+  background-image: url("../public/assets/images/Dark-BG.svg");
 }
 
 [data-theme="dark"] .text-textNav {
@@ -31,12 +27,19 @@
   background-color: #fff;
 }
 
-[data-theme="dark"] footer {
+[data-theme="dark"] footer,
+[data-theme="dark"] .burger-menu {
   background-color: #333;
 }
 
-[data-theme="dark"] .burger-menu {
-  background-color: #333;
+[data-theme="dark"] #Back-To-Top #Ellipse,
+[data-theme="dark"] #Back-To-Top #Polygon-2,
+[data-theme="dark"] #Back-To-Top #Polygon-2_2 {
+  fill: #333;
+}
+
+[data-theme="dark"] #Back-To-Top #Line {
+  stroke: #333;
 }
 
 .social svg:hover {
