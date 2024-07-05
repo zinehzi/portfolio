@@ -26,7 +26,7 @@ const RootLayout: React.FC<Props> = async ({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className="h-screen flex flex-col gap-14 text-base md:text-lg font-medium text-textPrimary bg-white bg-lightBg bg-center bg-no-repeat">
-        <ThemeProvider defaultTheme="system" enableSystem={false}>
+        <ThemeProvider defaultTheme="system" enableSystem={false} >
           <NextIntlClientProvider messages={messages}>
             <Header />
             <main

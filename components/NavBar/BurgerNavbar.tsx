@@ -26,6 +26,7 @@ function BurgerNavbar() {
         className={`${
           isActive ? "flex" : "hidden"
         } flex-col items-end gap-4 absolute top-16 left-0 right-0 w-full px-8 pt-4 pb-6 bg-white shadow-md burger-menu`}
+        handleOnClick={handleOnClick}
       >
         <LocaleSwitcher className="text-3xl"/>
       </NavbarItem>
